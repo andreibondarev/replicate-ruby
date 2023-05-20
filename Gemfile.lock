@@ -3,7 +3,7 @@ PATH
   specs:
     replicate-ruby (0.2.1)
       addressable
-      faraday (>= 2.0)
+      faraday (>= 1.0)
       faraday-multipart
       faraday-retry
 
@@ -63,6 +63,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-darwin-19
   x86_64-darwin-21
 
 DEPENDENCIES
@@ -75,4 +76,4 @@ DEPENDENCIES
   webmock
 
 BUNDLED WITH
-   2.3.26
+   2.4.0
